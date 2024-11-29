@@ -5,7 +5,7 @@ with open("./user_data.txt", "a") as file:
         first_name = input("What is your first name? ")
         middle_name = input("What is your middle name? ")
         surname = input("what is your surname? ")
-        file.write(f"\nUser's name is: {first_name} {middle_name} {surname}")
+        file.write(f"\nUser's name is: {first_name} {middle_name} {surname}\n")
         print("\n")
 
     user_name ()
@@ -28,7 +28,7 @@ with open("./user_data.txt", "a") as file:
 
     def user_gender():  #user's sex
         sex = input("Are you a male or female? ")
-        file.write(f"User's sex is:{sex}\n") 
+        file.write(f"User's sex is: {sex}\n") 
         print("\n")       
 
     user_gender()
