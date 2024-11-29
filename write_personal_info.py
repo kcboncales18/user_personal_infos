@@ -75,6 +75,6 @@ with open("./user_data.txt", "a") as file:
                           "user_religion": religion})
     
         #uhh it ask user twice for information before it asks this yes or no question
-        retry = input("do you want to enter another entry? Yes or no. ").lower()
+        retry = input("do you want to enter another entry? Yes or no. ")
         if retry == "no":
             break
