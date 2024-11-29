@@ -24,10 +24,19 @@ def user_gender ():  #user's sex
     print("User's sex is: ", sex)
 user_gender()
 
+def user_nationality(): #user's nationality 
+    citizenship = input("What is your nationality: ")
+    print("User's nationality is:  ", citizenship)
+user_nationality()
+
 while True:         #the program continues to ask         
     full_name = user_name()
     age = user_age()
     birthdate = user_birth()
-    sex = user_gender
-    
-    personal_info.append({"user_name":full_name, "user_age":age, "user_birth": birthdate, "user_gender":sex}) #format
+    sex = user_gender()
+    citizenship = user_nationality()
+    personal_info.append({"user_name":full_name,
+                          "user_age":age, 
+                          "user_birth": birthdate, 
+                          "user_gender":sex, 
+                          "user_nationality":citizenship})
