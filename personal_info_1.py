@@ -7,7 +7,7 @@ def user_name():     #user's full name
     print(f"User's name is: {first_name} {middle_name}. {surname}")
 user_name ()
 
-def user_age():     #user's age 
+def user_age():     #user's ages 
     age = int(input("Ok, how old are you now? "))
     print(f"User's age is: {age} years old. ")
 user_age()
@@ -24,11 +24,12 @@ def user_gender():  #user's sex
     print("User's sex is: ", sex)
 user_gender()
 
-def user_address():
+def user_address(): #user's address
     barangay = input("What barangay your place in? ")
     municipality = input("What municipality your place in? ")
     province = input("What province your place in? ")
-    print(f"User lived at: {barangay}, {municipality}, {province}")
+    country = input("What country do you live? ")
+    print(f"User lived at: {barangay}, {municipality}, {province}, {country}")
 user_address()
 
 def user_nationality(): #user's nationality 
@@ -58,3 +59,7 @@ while True:         #the program continues to ask
                           "user_nationality":citizenship,
                           "user_religion": religion})
     
+    #uhh it ask user twice for information before it asks this yes or no question
+    retry = input("do you want to enter another entry? Yes or no. ")
+    if retry == "no":
+        break
