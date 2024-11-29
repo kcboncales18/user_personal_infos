@@ -45,7 +45,7 @@ with open("./user_data.txt", "a") as file:
 
     def user_nationality(): #user's nationality 
         citizenship = input("What is your nationality: ")
-        file.write(f"User's nationality is:{citizenship}\n")
+        file.write(f"User's nationality is: {citizenship}\n")
         print("\n")
 
     user_nationality()
