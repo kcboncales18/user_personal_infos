@@ -1,0 +1,16 @@
+User's name is: Kirsten Caryl L. Boncales
+User's age is: 18 years old.
+User's birthday is on: February, 18 2006
+
+ User's sex is:female
+User lived at: loma de gato, marilao, bulacan, philippines
+User's nationality is:filipino
+User's religion is: roman catholic
+User's name is: lian l. boncales
+User's age is: 12 years old.
+User's birthday is on: december , 20 2010
+
+ User's sex is:female
+User lived at: loma de gato, marilao, bulacan, philippines
+User's nationality is:filipino
+User's religion is: roman catholic
