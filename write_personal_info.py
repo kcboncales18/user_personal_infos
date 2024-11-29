@@ -6,12 +6,14 @@ with open("./user_data.txt", "a") as file:
         middle_name = input("What is your middle name? ")
         surname = input("what is your surname? ")
         file.write(f"\nUser's name is: {first_name} {middle_name} {surname}")
+        print("\n")
 
     user_name ()
 
     def user_age():     #user's ages 
         age = int(input("Ok, how old are you now? "))
-        file.write(f"\nUser's age is: {age} years old.")
+        file.write(f"User's age is: {age} years old.\n")
+        print("\n")
 
     user_age()
 
@@ -19,13 +21,15 @@ with open("./user_data.txt", "a") as file:
         month = input("What month are you born? ")
         date = int(input("What is the date of your birthday? "))
         year = int(input("and what year are you born? "))
-        file.write(f"\nUser's birthday is on: {month}, {date} {year}")
+        file.write(f"User's birthday is on: {month}, {date} {year}\n")
+        print("\n")
 
     user_birth()
 
     def user_gender():  #user's sex
         sex = input("Are you a male or female? ")
-        file.write(f"\nUser's sex is:{sex}")        
+        file.write(f"User's sex is:{sex}\n") 
+        print("\n")       
 
     user_gender()
 
@@ -34,19 +38,22 @@ with open("./user_data.txt", "a") as file:
         municipality = input("What municipality your place in? ")
         province = input("What province your place in? ")
         country = input("What country do you live? ")
-        file.write(f"\nUser lived at: {barangay}, {municipality}, {province}, {country}")     
+        file.write(f"User lived at: {barangay}, {municipality}, {province}, {country}\n")     
+        print("\n")
 
     user_address()
 
     def user_nationality(): #user's nationality 
         citizenship = input("What is your nationality: ")
-        file.write(f"\nUser's nationality is:{citizenship}")
+        file.write(f"User's nationality is:{citizenship}\n")
+        print("\n")
 
     user_nationality()
 
     def user_religion(): #religion of the user
         religion = input("What religion do you belong to? ")
-        file.write(f"\nUser's religion is: {religion}")   
+        file.write(f"User's religion is: {religion}\n")   
+        print("\n")
 
     user_religion()
 
