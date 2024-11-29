@@ -18,3 +18,16 @@ def user_birth ():   #user's birthday
     year = int(input("and what year are you born? "))
     print(f"User's birthday is on: {month}, {date} {year}")
 user_birth()
+
+def user_gender ():  #user's sex
+    sex = input("Are you a male or female? ")
+    print("User's sex is: ", sex)
+user_gender()
+
+while True:         #the program continues to ask         
+    full_name = user_name()
+    age = user_age()
+    birthdate = user_birth()
+    sex = user_gender
+    
+    personal_info.append({"user_name":full_name, "user_age":age, "user_birth": birthdate, "user_gender":sex}) #format
