@@ -1,2 +1,4 @@
+#this will read the datas 
 with open("./user_data.txt", "r") as file:
-    print(file.read())
+    lines = file.readlines()
+    print(lines)
