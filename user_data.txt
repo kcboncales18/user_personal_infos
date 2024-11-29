@@ -1,16 +1,25 @@
-User's name is: Bachira L.. Meguru 
-User's age is: 19 years old.
-User's birthday is on: December , 25 2005
 
- User's sex is:Male
-User lived at: Bavaria, Munich , Bayern, Germany
-User's nationality is:German
-User's religion is: Catholic
-User's name is: Michael S. Kaiser
+User's name is: Meguru Rivera Bachira
 User's age is: 19 years old.
-User's birthday is on: December , 25 2004
+User's birthday is on: August, 8 2005
+User's sex is:Male
+User lived at: Sta.Rosa, Marilao, Bulacan, Philippines
+User's nationality is:Filipino
 
- User's sex is:Male
-User lived at: Bavaria, Munich, Bayern, Germany
-User's nationality is:German
+User's religion is: Roman Catholic
+User's name is: Michael  Sergio Kaiser
+User's age is: 19 years old.
+User's birthday is on: December, 25 2005
+User's sex is:Male
+User lived at: Heritage, Meycauayan, Bulacan, Philippines
+User's nationality is:Filipino
+
 User's religion is: Born Again
+User's name is: Yoichi Ventura Isagi
+User's age is: 18 years old.
+User's birthday is on: April, 1 2006
+User's sex is:Male
+User lived at: Muzon, San Jose Del Monte, Bulacan, Philippines
+User's nationality is:Japanese
+
+User's religion is: Catholic
