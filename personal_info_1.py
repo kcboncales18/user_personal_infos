@@ -29,14 +29,23 @@ def user_nationality(): #user's nationality
     print("User's nationality is:  ", citizenship)
 user_nationality()
 
+def user_religion(): #religion of the user
+    religion = input("What religion do you belong to? ")
+    print("User's religion is: ", religion)
+user_religion()
+
 while True:         #the program continues to ask         
     full_name = user_name()
     age = user_age()
     birthdate = user_birth()
     sex = user_gender()
     citizenship = user_nationality()
+    religion = user_religion()
+    
     personal_info.append({"user_name":full_name,
                           "user_age":age, 
                           "user_birth": birthdate, 
                           "user_gender":sex, 
-                          "user_nationality":citizenship})
+                          "user_nationality":citizenship,
+                          "user_religion": religion})
+    
